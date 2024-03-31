@@ -1,13 +1,173 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.div{
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn{
+    
+        border: 0;
+        background:rgb(160, 60, 76);
+        padding: 5px 10px;
+        cursor: pointer;
+        color: white;
+        margin: 0 7px;
+        border-radius: 25px;
+  
+}
+button{
+    border: 0;
+    background:rgb(160, 60, 76);
+    padding: 5px 10px;
+    cursor: pointer;
+    color: white;
+    margin: 0 7px;
+    border-radius: 25px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.form {
+    width: 500px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin: 100px auto;
+    text-align: center;
+    padding: 15px 0;
+}
+.form label{
+    text-align: left;
+}
+.form button {
+    background: rgb(87, 96, 172);
+    padding: 10px;
+    border: 0;
+    margin: 10px 0;
+}
+.form .error {
+    color: red;
+}
+.img {
+    width: 250px;
+    height: 250px;
+}
+
+
+.serach , .result {
+    text-align: center;
+    width: 500px;
+    margin: 0 auto 10px auto;
+    background: green;
+    color: black;
+}
+ul {
+    margin: 0 auto;
+    width: fit-content;
+}
+li{
+    margin: 0 auto;
+    width: fit-content;
+}
+.app {
+    text-align: center;
+    padding: 25px 0;
+    background: greenyellow;
+    width: 100%;
+    height: 100vh;
+}
+body {
+    background-color: lightgray;
+}
+.app_notes {
+    width: 100%;
+    display: flex;
+}
+.sidebar {
+    background: white;
+    width: 20%;
+    padding: 10px;
+    margin: 10px;
+}
+.sidebar button {
+    border: 0;
+    padding: 5px 10px;
+    background: gold;
+    width: 100%;
+    cursor: pointer;
+}
+.sidebar input , .sidebar textarea {
+    margin: 10px 0;
+    padding: 5px 10px;
+    width: 100%;
+}
+.notes {
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card_note {
+    width: 30%;
+    height: 200px;
+    margin: 0 1.66%;
+    background: white;
+    height: fit-content;
+    text-align: center;
+    padding: 25px 0;
+   
+}
+
+.box {
+    width: 700px;
+   
+    box-shadow: 0 0 70px rgba(0, 0, 0, 0.2);
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 25px;
+}
+.acceuil .para{
+    text-align: center;
+    padding: 15px 0;
+    font-size: 30px;
+  font-weight: bold;
+}
+.cardimg {
+    width: 18%;
+    margin: 10px auto;
+}
+.pagination {
+    margin: 0 auto;
+}
+.active{
+    background-color: black;
+    color: white;
+}
+
+.product , .panier{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.product img {
+    width: 50px;
+    height: 50px;
+}
+.pro {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+.acceuil {
+    background-color: pink;
 }
